@@ -11,6 +11,7 @@
    .env('__')      // Loads process.env into the hierarchy
    .file({ file: './config.json' });
  
+  // See "node hello-nconf.js --conf='./config-2.json'"
   nconf.file(nconf.get('conf'));
 
 /*
