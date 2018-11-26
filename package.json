@@ -4,7 +4,9 @@
   "description": "",
   "main": "hello-nconf.js",
   "scripts": {
-    "test": "NODE_ENV=production node hello-nconf.js --foo bar"
+    "test": "NODE_ENV=production node hello-nconf.js --foo bar",
+    "start": "database__host=chuchu.deioc.ull.edu.es node hello-nconf.js --foo bar",
+    "config-2": "node hello-nconf.js --conf='./config-2.json'"
   },
   "keywords": [],
   "author": "Casiano Rodriguez-Leon <casiano.rodriguez.leon@gmail.com> (https://github.com/crguezl)",
