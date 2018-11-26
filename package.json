@@ -1,0 +1,15 @@
+{
+  "name": "learning-nconf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-nconf.js",
+  "scripts": {
+    "test": "NODE_ENV=production node hello-nconf.js --foo bar"
+  },
+  "keywords": [],
+  "author": "Casiano Rodriguez-Leon <casiano.rodriguez.leon@gmail.com> (https://github.com/crguezl)",
+  "license": "ISC",
+  "dependencies": {
+    "nconf": "^0.10.0"
+  }
+}
