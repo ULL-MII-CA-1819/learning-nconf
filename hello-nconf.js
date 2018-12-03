@@ -8,7 +8,7 @@
   //   3. A file located at 'path/to/config.json'
   //
   nconf.argv() // Loads process.argv using yargs. If options is supplied it is passed along to yargs.
-   .env('__')      // Loads process.env into the hierarchy
+   .env('__')  // Loads process.env into the hierarchy
    .file({ file: './config.json' });
 
   // See "node hello-nconf.js --conf='./config-2.json'"
